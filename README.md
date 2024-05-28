@@ -2,5 +2,5 @@
 
 ## daniel monsalve
 ---------------------------------------------------------------------
-primera página web realizada para el *React learning camp* de **Rootstrap** 
+primera página web realizada para el *React learning camp* de **Rootstrap** con implementación de estilo básico
 
