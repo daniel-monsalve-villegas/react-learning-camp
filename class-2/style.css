@@ -1,0 +1,52 @@
+body {
+ background-image: url(https://kaboompics.com/cache/b/a/7/b/7/ba7b701d6aabd7f8e698f7cb2ecea6252d4bc811.jpeg);
+ background-position: center center;
+ background-size: cover;
+ min-height: 100vh;
+ overflow-y: hidden;
+}
+
+.text {
+  font-family: "Quicksand";
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 2.2em;
+}
+
+p.text {
+  margin-bottom: 1.5em;
+}
+
+#emphasize {
+  color: black;
+  font-weight: 700;
+}
+
+figure {
+  width: 20em;
+  height: auto;
+  margin: 0 auto;
+}
+
+img {
+  border-radius: 50%;
+  border: 5px double #746757;
+  background-color: #E9DCCC;
+}
+
+figcaption.text {
+  font-size: 2em;
+  margin-top: 0.5em;
+}
+
+@media screen and (max-width: 925px) {
+  .text {
+    font-size: 2em;
+  }
+
+  figcaption.text {
+    font-size: 1.5em;
+  }
+  
+}
