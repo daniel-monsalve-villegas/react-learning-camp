@@ -3,48 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title></title>
-    <link href="css/style.css" rel="stylesheet" />
+    <title>ES6</title>
+    <link rel="stylesheet" href="style.css" />
     <script defer src="index.js"></script>
-    <style>
-      body {
-        background-color: #f6eedc;
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: monospace;
-      }
-      form {
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-        background-color: #ff9c14;
-        width: 30%;
-        margin: 0 auto;
-        margin-top: 20em;
-      }
-      form > * {
-        padding: 1em 2em;
-        font-size: 2em;
-      }
-      input {
-        background-color: #ca404e;
-      }
-      ::placeholder {
-        color: white;
-      }
-      dialog {
-        background-color: #651d72;
-      }
-    </style>
   </head>
   <body>
-    <form>
+    <form method="post" name="myForm">
       <label for="name">¿Cuál es tu nombre?</label>
-      <input name="name" type="text" placeholder="John Doe" />
+      <input
+        name="name"
+        type="text"
+        placeholder="John Doe"
+        id="nameIn"
+        required
+      />
       <label for="age">¿Y tu edad?</label>
-      <input name="age" type="number" placeholder="30" />
+      <input name="age" type="number" placeholder="30" id="ageIn" required />
+      <button>Enviar</button>
     </form>
+    <dialog>
+      <button onclick="closeModal()">X</button>
+      <h3>Bienvenidx</h3>
+      <p></p>
+      <p></p>
+    </dialog>
   </body>
 </html>
